@@ -1,0 +1,50 @@
+[[Matio]]
+arch = "aarch64"
+git-tree-sha1 = "454d4cf6ac4521cfe5a391e15d426d451519ea09"
+os = "macos"
+
+    [[Matio.download]]
+    sha256 = "3c8af538e595941a00779b71411baf31d1e65129dfabb43e37d0fd31b083f23d"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.aarch64-apple-darwin.tar.gz"
+[[Matio]]
+arch = "aarch64"
+git-tree-sha1 = "bdc7672aa348a09d8829aa623f44dec960275ecb"
+libc = "glibc"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "649f2a174e69550cc9cc3b343da2c24efb83063e8154a88a7d95d64573de4e67"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.aarch64-linux-gnu.tar.gz"
+[[Matio]]
+arch = "i686"
+git-tree-sha1 = "fd274b11cb463638ac1b69061357e88f55b5b2ca"
+os = "windows"
+
+    [[Matio.download]]
+    sha256 = "95dfd56c310a2c1851e2ea8ca9e68cfdbf08a0bc684bdbf6f4fa5b85afa8e8da"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.i686-w64-mingw32.tar.gz"
+[[Matio]]
+arch = "x86_64"
+git-tree-sha1 = "8c4a51f17ba1b2df4a5062f05de822f4c05a6766"
+os = "macos"
+
+    [[Matio.download]]
+    sha256 = "57a1265a9e105576543329f71c3ff0f096a0a73f3439ecd2b8ec977a9afc18b7"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.x86_64-apple-darwin.tar.gz"
+[[Matio]]
+arch = "x86_64"
+git-tree-sha1 = "ca1e50f71387b11eb12e23a53dd4d3b99b0fbc4c"
+libc = "glibc"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "af821ea921f7be6cfa3335a71d970153e87c05ccdc911f061a63b55d9ec7eccf"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.x86_64-linux-gnu.tar.gz"
+[[Matio]]
+arch = "x86_64"
+git-tree-sha1 = "4e458779788c5344fceaeccb014a21fada9287ec"
+os = "windows"
+
+    [[Matio.download]]
+    sha256 = "4249b4b9477a037194659fa779a6069b716c38ea08c5c7727aabbebc4f0ece3a"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.x86_64-w64-mingw32.tar.gz"
