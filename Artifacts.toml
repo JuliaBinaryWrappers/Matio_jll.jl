@@ -1,50 +1,143 @@
 [[Matio]]
 arch = "aarch64"
-git-tree-sha1 = "454d4cf6ac4521cfe5a391e15d426d451519ea09"
+git-tree-sha1 = "4a80b9615cd4ebd20dda4884dce214f226f5fc7c"
 os = "macos"
 
     [[Matio.download]]
-    sha256 = "3c8af538e595941a00779b71411baf31d1e65129dfabb43e37d0fd31b083f23d"
-    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.aarch64-apple-darwin.tar.gz"
+    sha256 = "c6630dd025f2b780547e68a798a0c94677bd97bb83afba65eabafe336eef8e1d"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.aarch64-apple-darwin.tar.gz"
 [[Matio]]
 arch = "aarch64"
-git-tree-sha1 = "bdc7672aa348a09d8829aa623f44dec960275ecb"
+git-tree-sha1 = "71a0359ef9957f1bd3b59e256e6b021798480e2b"
 libc = "glibc"
 os = "linux"
 
     [[Matio.download]]
-    sha256 = "649f2a174e69550cc9cc3b343da2c24efb83063e8154a88a7d95d64573de4e67"
-    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.aarch64-linux-gnu.tar.gz"
+    sha256 = "540b5ae2972adbaf00d109138f9574990310ef6948ad1de1bdbf7b6981081250"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.aarch64-linux-gnu.tar.gz"
+[[Matio]]
+arch = "aarch64"
+git-tree-sha1 = "e0646ee18d6098859eb47ec02f45b59bd96d8ec2"
+libc = "musl"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "d2c6ddf96999a0a9e51b53d5a761642792652798fd435ecd404d4619cc06e090"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.aarch64-linux-musl.tar.gz"
+[[Matio]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a2b6a82de15024f31dac7441b1f56736198fc1b4"
+libc = "glibc"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "799d3d9ea052d65b41b88e7a4281d5c33fbc0b85f7bb31fccc9db77c299cfa68"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.armv6l-linux-gnueabihf.tar.gz"
+[[Matio]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "13da068c3f6ae17ac7f055225d317274d409c118"
+libc = "musl"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "41ed94b041a702363d86a05a1d66ccf5215627187dc8033910cc40330aa661a6"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.armv6l-linux-musleabihf.tar.gz"
+[[Matio]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "97a02474b866c3f6f6939b7380708604e9014602"
+libc = "glibc"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "d073444d909dd3f4dd82d1387e5793b9822e5007255497bbb6bd8f063044faaf"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.armv7l-linux-gnueabihf.tar.gz"
+[[Matio]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "8dfb4ed49051539b1baf20feb69ffb58ae213289"
+libc = "musl"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "363a8c6c237a118e3449e7903db5e9ca60085cee3cc465a963c335b6ef75f150"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.armv7l-linux-musleabihf.tar.gz"
 [[Matio]]
 arch = "i686"
-git-tree-sha1 = "fd274b11cb463638ac1b69061357e88f55b5b2ca"
+git-tree-sha1 = "b5ac25a491da464cc76fce6046afe1b9612c1690"
+libc = "glibc"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "b8b11aadb9b724064f6d30ae762b194a9c71a01886ddc3fdff6065aa70974f74"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.i686-linux-gnu.tar.gz"
+[[Matio]]
+arch = "i686"
+git-tree-sha1 = "c30d0a03c70828b1068a1977e5ee814ef91bf0a7"
+libc = "musl"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "ec49644deb4be03816a78902eb9fd8accbaf44dfdc8cd8fb1e131b1e396934e3"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.i686-linux-musl.tar.gz"
+[[Matio]]
+arch = "i686"
+git-tree-sha1 = "e3d570c6abed851b0b1bcaff2fc93564a4720f12"
 os = "windows"
 
     [[Matio.download]]
-    sha256 = "95dfd56c310a2c1851e2ea8ca9e68cfdbf08a0bc684bdbf6f4fa5b85afa8e8da"
-    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.i686-w64-mingw32.tar.gz"
+    sha256 = "4af7c2f4b49f7fe62bebc559989196119fa06a8619656ac7fda4ca6e6a643bc7"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.i686-w64-mingw32.tar.gz"
+[[Matio]]
+arch = "powerpc64le"
+git-tree-sha1 = "08c96ab4cfe51ffa95749b7d04cddee05df07c3b"
+libc = "glibc"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "daa849e5a12523b8965e76e36fdd16f5b8eec952330b4a844d9f92154335fe2b"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.powerpc64le-linux-gnu.tar.gz"
 [[Matio]]
 arch = "x86_64"
-git-tree-sha1 = "8c4a51f17ba1b2df4a5062f05de822f4c05a6766"
+git-tree-sha1 = "5e6371db5f9e62950683565f85073b00ce213cd8"
 os = "macos"
 
     [[Matio.download]]
-    sha256 = "57a1265a9e105576543329f71c3ff0f096a0a73f3439ecd2b8ec977a9afc18b7"
-    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.x86_64-apple-darwin.tar.gz"
+    sha256 = "d6cc5219dc95cc2eb8570d08cbe57563cde7766e54ea0c6abc898529fd856442"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.x86_64-apple-darwin.tar.gz"
 [[Matio]]
 arch = "x86_64"
-git-tree-sha1 = "ca1e50f71387b11eb12e23a53dd4d3b99b0fbc4c"
+git-tree-sha1 = "0dab948821b9cc778301a9bb402ac08b5e6bbaa1"
 libc = "glibc"
 os = "linux"
 
     [[Matio.download]]
-    sha256 = "af821ea921f7be6cfa3335a71d970153e87c05ccdc911f061a63b55d9ec7eccf"
-    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.x86_64-linux-gnu.tar.gz"
+    sha256 = "b266a0b0891b7958fab2f3629451abb60257838b4637661dc95ec013607f51f5"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.x86_64-linux-gnu.tar.gz"
 [[Matio]]
 arch = "x86_64"
-git-tree-sha1 = "4e458779788c5344fceaeccb014a21fada9287ec"
+git-tree-sha1 = "e9a1583b0952fc13985d4ca0dc39c35cbc5f7a7e"
+libc = "musl"
+os = "linux"
+
+    [[Matio.download]]
+    sha256 = "ab40167bb5b14874d9591a498c6676d2012b33497d51b2829a1ff9701e706c52"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.x86_64-linux-musl.tar.gz"
+[[Matio]]
+arch = "x86_64"
+git-tree-sha1 = "12c96730e32e3e1a626c2b136deb271177e36efe"
+os = "freebsd"
+
+    [[Matio.download]]
+    sha256 = "1bbb47c81e7b33adacae10126ed7549c15a1da22cb876517531b99428d7c92be"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.x86_64-unknown-freebsd.tar.gz"
+[[Matio]]
+arch = "x86_64"
+git-tree-sha1 = "4e7b83e6a3cbc69d568eb2ac6c32ab1d3abaf120"
 os = "windows"
 
     [[Matio.download]]
-    sha256 = "4249b4b9477a037194659fa779a6069b716c38ea08c5c7727aabbebc4f0ece3a"
-    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.23+0/Matio.v1.5.23.x86_64-w64-mingw32.tar.gz"
+    sha256 = "66cdfd126ac3854fb8244c36fa4d84615e7f0ef5152d21f5e1b551c751b28547"
+    url = "https://github.com/JuliaBinaryWrappers/Matio_jll.jl/releases/download/Matio-v1.5.24+0/Matio.v1.5.24.x86_64-w64-mingw32.tar.gz"
